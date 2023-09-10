@@ -10,7 +10,7 @@ check.addEventListener("click", function () {
 
   // When there is no input
   if (!guess) {
-    document.querySelector(".message").textContent = "⛔ No number!";
+    document.querySelector(".message").textContent = "⛔ No Number!";
 
     // When player wins
   } else if (guess === secretNumber) {
@@ -53,5 +53,5 @@ playAgain.addEventListener("click", function () {
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".guess").value = "";
   document.querySelector("body").style.backgroundColor = "#b2beb5";
-  document.querySelector(".number").style.width = "15rem";
+  document.querySelector(".number").style.width = "16rem";
 });
