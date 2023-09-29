@@ -22,7 +22,7 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 8px solid #eee;
 }
 
 main {
@@ -42,7 +42,7 @@ main {
 
 .right {
   width: 52rem;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 
 /* ELEMENTS STYLE */
