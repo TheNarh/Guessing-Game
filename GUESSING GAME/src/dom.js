@@ -46,7 +46,7 @@ check.addEventListener("click", function () {
 const playAgain = document.querySelector(".restart");
 playAgain.addEventListener("click", function () {
   score = 20;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  secretNumber = Math.floor(Math.random() * 20) + 1;
 
   document.querySelector(".score").textContent = score;
   document.querySelector(".number").textContent = "?";
